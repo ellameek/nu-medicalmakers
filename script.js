@@ -15,7 +15,7 @@ const bios = {
   ryan: {
     name: "Ryan Xu",
     role: "Treasurer",
-    text: "Hi my name is Ryan and I’m from the Bay Area! I’m a rising sophomore and am getting my BS in biomedical engineering. In my spare time I love gardening and practicing kung fu. Feel free to reach out!",
+    text: "Hi my name is Ryan and I’m from the Bay Area! I’m a Junior and am getting my BS in biomedical engineering. In my spare time I love gardening and practicing kung fu. Feel free to reach out!",
     image: "images/ryan_xu.jpeg",
     linkedin: "https://www.linkedin.com/in/ryan-xu-71983032b",
     email: "mailto:RyanXu2028@u.northwestern.edu"
@@ -63,7 +63,7 @@ const bios = {
   ella: {
     name: "Ella Meek",
     role: "Co-President",
-    text: "Hi everyone, my name is Ella and I’m a Junior Biomedical Engineering major interested in upper extremity bionic prostheses. Through Medical Makers and my research efforts, I aim to design medical devices that are accessible to communities in need. Outside of school, I enjoy going to the gym, trying new places to eat, and watching the sunset with friends. Don’t hesitate to reach out with any questions!",
+    text: "Hi everyone, my name is Ella and I’m a Junior Biomedical Engineering major interested in bionic prostheses. Through Medical Makers and my research efforts, I aim to design medical devices that are accessible to communities in need. Outside of school, I enjoy going to the gym, trying new places to eat, and watching the sunset with friends. Don’t hesitate to reach out with any questions!",
     image: "images/ella_meek.jpeg",
     linkedin: "https://www.linkedin.com/in/ella-meek-64a46631b",
     email: "mailto:EllaMeek2028@u.northwestern.edu"
