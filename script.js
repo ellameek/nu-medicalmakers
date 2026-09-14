@@ -41,7 +41,7 @@ const bios = {
     role: "Secretary",
     text: "Hi, my name is Dev Jhaveri and I’m from Mumbai, India. I am a junior studying ME and in my free time I like to play table tennis and go food exploring.",
     image: "images/dev_jhaveri.jpeg",
-  //   linkedin: "https://www.linkedin.com/in/eva-potjer-617598252",
+  //   linkedin: "https://www.linkedin.com/in/devjhaveri/",
   email: "mailto:DevJhaveri2028@u.northwestern.edu"
   },
   meghna: {
