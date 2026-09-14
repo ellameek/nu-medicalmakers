@@ -23,7 +23,7 @@ const bios = {
   jackson: {
     name: "Jackson Wang",
     role: "Project Manager - Team 2",
-    text: "Hi, my name is Jackson Wang and I’m from Nashville TN. I am a Junior studying BME and in my free time I like to do photography and go hiking.",
+    text: "Hi, my name is Jackson Wang and I’m from Nashville, TN. I’m a junior studying Biomedical Engineering, and I’m especially interested in prosthetics design, CAD modeling, and 3D printing. In my free time, I like photography, hiking, and exploring new places.",
     image: "images/jackson_wang.jpeg",
     linkedin: "https://www.linkedin.com/in/jackson-wang-899a25172",
     email: "mailto:JacksonWang2028@u.northwestern.edu"
