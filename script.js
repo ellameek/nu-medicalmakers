@@ -43,7 +43,7 @@ const bios = {
     image: "images/dev_jhaveri.jpeg",
   //   linkedin: "https://www.linkedin.com/in/eva-potjer-617598252",
   email: "mailto:DevJhaveri2028@u.northwestern.edu"
-  // },
+  },
   meghna: {
     name: "Meghna Sundaram",
     role: "Project Manager - Team 2",
