@@ -32,7 +32,7 @@ const bios = {
     name: "Luca Endorf",
     role: "Project Manager - EEG Wheelchair Team",
     text: "Hey all, my name is Luca Endorf and I am a junior at NU. I’m a Mechanical engineering student with a concentration in robotics, and in my free time I enjoy reading, going to the gym, hanging with friends, and listening to/playing music. Reach out if you have questions about the EEG team!",
-    image: "images/luca_endorf.jpg",
+    image: "images/luca_endorf.png",
     linkedin: "https://www.linkedin.com/in/luca-endorf-391053359/",
     email: "mailto:LucaEndorf2028@u.northwestern.edu"
   },
