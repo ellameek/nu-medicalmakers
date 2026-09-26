@@ -1,48 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicons/site.webmanifest">
+  <link rel="icon" href="/images/favicons/favicon.ico" type="image/x-icon">
+  
   <title>Northwestern Medical Makers</title>
-  <meta name="description" content="Collaborative medical device innovation at Northwestern University.">
+  <meta name="description" content="Northwestern Medical Makers is a Northwestern University student group that designs and builds medical devices with Shirley Ryan AbilityLab and Stryker. Open to all Northwestern students.">
+  <link rel="canonical" href="https://numedicalmakers.org/">
 
-  <!-- =========================
-       iMessage (Square Preview)
-       ========================= -->
-  <!--
-  <meta property="og:image" content="https://numedicalmakers.org/images/sq_preview.jpg">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="1200">
-  -->
-
-  <!-- =========================
-       Standard Social Preview
-       (Facebook / LinkedIn / Twitter fallback)
-       ========================= -->
+  <!-- Social previews -->
+  <meta property="og:title" content="Northwestern Medical Makers">
+  <meta property="og:description" content="Collaborative medical device innovation at Northwestern University.">
+  <meta property="og:url" content="https://numedicalmakers.org/">
+  <meta property="og:type" content="website">
   <meta property="og:image" content="https://numedicalmakers.org/images/re_preview.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-
-  <!-- Open Graph (General) -->
-  <meta property="og:title" content="Northwestern Medical Makers">
-  <meta property="og:description" content="Collaborative medical device innovation at Northwestern University.">
-  <meta property="og:url" content="https://numedicalmakers.org">
-  <meta property="og:type" content="website">
-
-  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Northwestern Medical Makers">
   <meta name="twitter:description" content="Collaborative medical device innovation at Northwestern University.">
-  <meta name="twitter:image" content="https://numedicalmakers.org/images/re-preview.jpg">
+  <meta name="twitter:image" content="https://numedicalmakers.org/images/re_preview.jpg">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="https://numedicalmakers.org/images/medmakers favicon.png">
-
-  <script>
-    window.location.href = "home.html";
+  <!-- Tells Google the official name of the club -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Northwestern Medical Makers",
+    "alternateName": "NU Medical Makers",
+    "url": "https://numedicalmakers.org/",
+    "logo": "https://numedicalmakers.org/images/favicons/apple-touch-icon.png",
+    "sameAs": ["https://www.instagram.com/nu.medicalmakers/"]
+  }
   </script>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div id="navbar-container"></div>
+    <script src="navbar.js"></script>
+
+
+  <section class="hero-section">
+    <div class="hero-content">
+      
+      <h1 >Northwestern Medical Makers</h1>
+      <p>Collaborative medical device innovation at Northwestern University</p>
+      <a href="projects.html" class="cta-button">Explore Our Projects</a>
+    </div>
+  </section>
+
+  <!--
+  <section class="mission">
+    <h2>Our Mission</h2>
+    <p>
+      We aim to design innovative solutions to <b>real-world</b> healthcare challenges by collaborating across disciplines and partnering with patients and clinicians. From idea to impact, we build devices that <b>make a difference</b>.
+    </p>
+    <p>
+      We empower students with hands-on experience in medical device design. By prioritizing upskilling through the prototyping process, we offer members the opportunity to build technical skills while transforming their ideas into <b>impactful</b> solutions.
+    </p>
+    <p>
+      Typically, we have 3 different project teams with 10-15 members each. We leverage our partnerships with the <b>Shirley Ryan AbilityLab</b> and <b>Stryker Corporation</b> to inform our project decisions and prepare our students for an industry role in the medical devices industry.
+    </p>
+    <p>
+      <i>Open to all enrolled Northwestern students, regardless of major or experience level.</i>
+    </p>
+  </section>
+  -->
+  
+  <section class="mission">
+    <h2>Our Mission</h2>
+
+    <p><b>We design and build medical devices</b> that solve real problems for patients and clinicians, turning ideas into impact.</p>
+
+    <ul class="mission-points">
+      <li><b>Hands-on upskilling:</b> Learn the full prototyping process while shipping real hardware.</li>
+      <li><b>Cross-disciplinary teams:</b> Engineers, designers, and clinicians collaborate from day one.</li>
+      <li><b>Build your portfolio:</b> Iterate, test, and present devices that matter.</li>
+    </ul>
+
+    <p>We typically run <b>2 project teams</b> and partner with
+      <b>Shirley Ryan AbilityLab</b> and <b>Stryker</b> to guide problem selection and prepare members for the medical device industry.</p>
+
+    <p><i>Open to all Northwestern students—no experience required.</i></p>
+    <div class="join-button-container">
+      <a href="contact.html" class="join-button">Join a Team!</a>
+    </div>
+
+  </section>
+
+
+  <footer>
+      <div id="footer-container"></div>
+      <script src="footer.js"></script>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
